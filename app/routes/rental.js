@@ -10,6 +10,5 @@ export default class RentalRoute extends Route {
       findRecord('rental', params.rental_id),
     );
     return content.data;
-
   }
 }
