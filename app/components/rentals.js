@@ -14,6 +14,6 @@ export default class Rentals extends Component {
   @action
   handleSubmit(event) {
     event.preventDefault();
-    this.updateQuery(event);yy
+    this.updateQuery(event);
   }
 }
